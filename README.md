@@ -1,9 +1,5 @@
 > A Hierarchical Filesystem simulation in C++.
 
-This is a project I made during my Masters at Computer Applications course at Dept. of Computer Science, university of Delhi.
-
-> See also: https://github.com/sidvishnoi/filesystem-assignment (Teaching material based on this assignment) : A file handling assignment made to teach some ideas about file systems and gain user's experience in C++ file handling.
-
 The program lets you create a filesystem as a file and allows you to do file/directory operations in a Linux like terminal interface.
 
 See `help.txt` for a list of available commands.
@@ -20,5 +16,3 @@ It creates a binary file (using `fstream`) inside which files, directories and f
 It allows you to create files, create hierarchical directories, delete files and (attempt to) recover deleted files, along with operations like list directory, print directory tree, print working directory, change directory. See `help.txt` for a complete list of commands, or use the inbuilt `help` command in program.
 
 All operations are done at sector levels.
-
-Copyright 2017 Sid Vishnoi under MIT license.
